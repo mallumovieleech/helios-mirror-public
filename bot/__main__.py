@@ -62,8 +62,8 @@ def stats(update, context):
 
 def start(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/arshsisodiya/helios-mirror-public")
-    buttons.buildbutton("Channel", "https://t.me/heliosmirror")
+    buttons.buildbutton("Repo", "https://t.me/ZKP143")
+    buttons.buildbutton("Channel", "https://t.me/+21-626z8Zko3YWU1")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
